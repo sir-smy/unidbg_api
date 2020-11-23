@@ -1,7 +1,7 @@
 ### 使用方式:
 1.加载到idea
 
-2.add 个maven工程
+2.add 到maven工程
 
 3.运行com\unidbg\api\ApiApplication.java即可启动服务
 
