@@ -26,3 +26,5 @@ param = {'param': '{"tag":"getContentJNI"}'}
 req=requests.get(url,param=data)
 print(req.text)
 ```
+### 感谢
+[https://github.com/zhkl0228/unidbg](https://github.com/zhkl0228/unidbg "https://github.com/zhkl0228/unidbg")
