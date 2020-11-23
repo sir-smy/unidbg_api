@@ -72,7 +72,7 @@ public class NativeUtils extends AbstractJni {
 
     public static void main(String[] args) throws IOException {
         String class_name = "com/xx/xx"; //类路径smali写法
-        String so_name = "libprotect.so"; //so名字smali写法    文件复制到resources\so_path目录下即可
+        String so_name = "libprotect.so"; //so名字  文件复制到resources\so_path目录下即可
         NativeUtils instance = new NativeUtils(class_name, so_name);
         instance.getContentJNI();
         instance.destroy();
