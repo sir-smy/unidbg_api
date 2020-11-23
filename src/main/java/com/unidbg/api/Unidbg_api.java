@@ -19,7 +19,7 @@ public class Unidbg_api {
     static {
         try {
             String class_name = "com/xx/xx"; //类路径smali写法
-            String so_name = "libprotect.so"; //类路径smali写法
+            String so_name = "libprotect.so"; //so名称smali写法
             instance = new NativeUtils(class_name, so_name);
         } catch (IOException e) {
             e.printStackTrace();
