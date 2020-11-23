@@ -8,7 +8,7 @@
 ### 修改配置和代码
 通过application.properties自行修改服务的地址和端口
 
-调用示例文件文件参考NativeUtils.java
+调用示例文件参考NativeUtils.java
 ### 打jar包
 使用maven的package即可，之后会发现生成一个target目录其中里面就有jar包了。
 ### 使用jar包
