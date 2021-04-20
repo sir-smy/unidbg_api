@@ -28,5 +28,4 @@ print(req.text)
 ```
 ### 感谢
 [https://github.com/zhkl0228/unidbg](https://github.com/zhkl0228/unidbg "https://github.com/zhkl0228/unidbg")
-### QQ交流群
-414782744
+
