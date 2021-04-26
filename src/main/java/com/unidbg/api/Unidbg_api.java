@@ -27,7 +27,7 @@ public class Unidbg_api {
     }
 
     @RequestMapping(path = "/", method = {RequestMethod.GET, RequestMethod.POST})
-    public String test(@RequestParam String param) throws IOException {
+    public String test(@RequestBody String param) throws IOException {
 
         System.out.println(param);
         JSONObject js = JSONUtil.parseObj(param);
